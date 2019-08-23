@@ -1,0 +1,434 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class WaitExtensionMethods
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class WaitExtensionMethods
+   ">
+    <meta name="generator" content="docfx 2.16.7.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <h1 id="Levi9_NetSel_Extensions_WaitExtensionMethods" data-uid="Levi9.NetSel.Extensions.WaitExtensionMethods">Class WaitExtensionMethods
+              </h1>
+              <div class="markdown level0 summary"><p>Contains extension methods for handling wait events.</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><span class="xref">WaitExtensionMethods</span></div>
+              </div>
+              <h6><strong>Namespace</strong>:Levi9.NetSel.Extensions</h6>
+              <h6><strong>Assembly</strong>:Levi9.NetSel.dll</h6>
+              <h5 id="Levi9_NetSel_Extensions_WaitExtensionMethods_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static class WaitExtensionMethods : object</code></pre>
+              </div>
+              <h3 id="methods">Methods
+              </h3>
+              <a id="Levi9_NetSel_Extensions_WaitExtensionMethods_Until_" data-uid="Levi9.NetSel.Extensions.WaitExtensionMethods.Until*"></a>
+              <h4 id="Levi9_NetSel_Extensions_WaitExtensionMethods_Until_Levi9_NetSel_Wait_ICollection_Levi9_NetSel_Elements_NetSelElement___Levi9_NetSel_WaitConditions_IWaitCondition_ICollection_Levi9_NetSel_Elements_NetSelElement_____" data-uid="Levi9.NetSel.Extensions.WaitExtensionMethods.Until(Levi9.NetSel.Wait{ICollection{Levi9.NetSel.Elements.NetSelElement}},Levi9.NetSel.WaitConditions.IWaitCondition{ICollection{Levi9.NetSel.Elements.NetSelElement}}[])">Until(Wait&lt;ICollection&lt;NetSelElement&gt;&gt;, IWaitCondition&lt;ICollection&lt;NetSelElement&gt;&gt;[])</h4>
+              <div class="markdown level1 summary"><p>Method to wait until specified conditions are fulfilled.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static void Until(this Wait&lt;ICollection&lt;NetSelElement&gt;&gt; wait, params IWaitCondition&lt;ICollection&lt;NetSelElement&gt;&gt;[] conditions)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Levi9.NetSel.Wait-1.html">Wait</a>&lt;<span class="xref">ICollection</span>&lt;<a class="xref" href="Levi9.NetSel.Elements.NetSelElement.html">NetSelElement</a>&gt;&gt;</td>
+                    <td><span class="parametername">wait</span></td>
+                    <td><p>Instance of Wait.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Levi9.NetSel.WaitConditions.IWaitCondition-1.html">IWaitCondition</a>&lt;<span class="xref">ICollection</span>&lt;<a class="xref" href="Levi9.NetSel.Elements.NetSelElement.html">NetSelElement</a>&gt;&gt;[]</td>
+                    <td><span class="parametername">conditions</span></td>
+                    <td><p>Array of wait conditions.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <a id="Levi9_NetSel_Extensions_WaitExtensionMethods_Until_" data-uid="Levi9.NetSel.Extensions.WaitExtensionMethods.Until*"></a>
+              <h4 id="Levi9_NetSel_Extensions_WaitExtensionMethods_Until_Levi9_NetSel_Wait_Levi9_NetSel_Elements_NetSelElement__Levi9_NetSel_WaitConditions_IWaitCondition_Levi9_NetSel_Elements_NetSelElement____" data-uid="Levi9.NetSel.Extensions.WaitExtensionMethods.Until(Levi9.NetSel.Wait{Levi9.NetSel.Elements.NetSelElement},Levi9.NetSel.WaitConditions.IWaitCondition{Levi9.NetSel.Elements.NetSelElement}[])">Until(Wait&lt;NetSelElement&gt;, IWaitCondition&lt;NetSelElement&gt;[])</h4>
+              <div class="markdown level1 summary"><p>Method to wait until specified conditions are fulfilled.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static void Until(this Wait&lt;NetSelElement&gt; wait, params IWaitCondition&lt;NetSelElement&gt;[] conditions)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Levi9.NetSel.Wait-1.html">Wait</a>&lt;<a class="xref" href="Levi9.NetSel.Elements.NetSelElement.html">NetSelElement</a>&gt;</td>
+                    <td><span class="parametername">wait</span></td>
+                    <td><p>Instance of Wait.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Levi9.NetSel.WaitConditions.IWaitCondition-1.html">IWaitCondition</a>&lt;<a class="xref" href="Levi9.NetSel.Elements.NetSelElement.html">NetSelElement</a>&gt;[]</td>
+                    <td><span class="parametername">conditions</span></td>
+                    <td><p>Array of wait conditions.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <a id="Levi9_NetSel_Extensions_WaitExtensionMethods_UntilCollectionContainsElements_" data-uid="Levi9.NetSel.Extensions.WaitExtensionMethods.UntilCollectionContainsElements*"></a>
+              <h4 id="Levi9_NetSel_Extensions_WaitExtensionMethods_UntilCollectionContainsElements__1_Levi9_NetSel_Wait_Levi9_NetSel_Elements_ElementCollection___0___" data-uid="Levi9.NetSel.Extensions.WaitExtensionMethods.UntilCollectionContainsElements``1(Levi9.NetSel.Wait{Levi9.NetSel.Elements.ElementCollection{``0}})">UntilCollectionContainsElements&lt;T&gt;(Wait&lt;ElementCollection&lt;T&gt;&gt;)</h4>
+              <div class="markdown level1 summary"><p>Method to wait until collection contains elements.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static void UntilCollectionContainsElements&lt;T&gt;(this Wait&lt;ElementCollection&lt;T&gt;&gt; wait)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Levi9.NetSel.Wait-1.html">Wait</a>&lt;<a class="xref" href="Levi9.NetSel.Elements.ElementCollection-1.html">ElementCollection</a>&lt;T&gt;&gt;</td>
+                    <td><span class="parametername">wait</span></td>
+                    <td><p>Instance of Wait.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="parametername">T</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <a id="Levi9_NetSel_Extensions_WaitExtensionMethods_UntilCollectionNotContainsElements_" data-uid="Levi9.NetSel.Extensions.WaitExtensionMethods.UntilCollectionNotContainsElements*"></a>
+              <h4 id="Levi9_NetSel_Extensions_WaitExtensionMethods_UntilCollectionNotContainsElements__1_Levi9_NetSel_Wait_Levi9_NetSel_Elements_ElementCollection___0___" data-uid="Levi9.NetSel.Extensions.WaitExtensionMethods.UntilCollectionNotContainsElements``1(Levi9.NetSel.Wait{Levi9.NetSel.Elements.ElementCollection{``0}})">UntilCollectionNotContainsElements&lt;T&gt;(Wait&lt;ElementCollection&lt;T&gt;&gt;)</h4>
+              <div class="markdown level1 summary"><p>Method to wait until collection does not contain any element.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static void UntilCollectionNotContainsElements&lt;T&gt;(this Wait&lt;ElementCollection&lt;T&gt;&gt; wait)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Levi9.NetSel.Wait-1.html">Wait</a>&lt;<a class="xref" href="Levi9.NetSel.Elements.ElementCollection-1.html">ElementCollection</a>&lt;T&gt;&gt;</td>
+                    <td><span class="parametername">wait</span></td>
+                    <td><p>Instance of Wait.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="parametername">T</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <a id="Levi9_NetSel_Extensions_WaitExtensionMethods_WaitFor_" data-uid="Levi9.NetSel.Extensions.WaitExtensionMethods.WaitFor*"></a>
+              <h4 id="Levi9_NetSel_Extensions_WaitExtensionMethods_WaitFor_ICollection_Levi9_NetSel_Elements_NetSelElement__TimeSpan_" data-uid="Levi9.NetSel.Extensions.WaitExtensionMethods.WaitFor(ICollection{Levi9.NetSel.Elements.NetSelElement},TimeSpan)">WaitFor(ICollection&lt;NetSelElement&gt;, TimeSpan)</h4>
+              <div class="markdown level1 summary"><p>Method to create new instance of Wait.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static Wait&lt;ICollection&lt;NetSelElement&gt;&gt; WaitFor(this ICollection&lt;NetSelElement&gt; elem, TimeSpan timeoutTime)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">ICollection</span>&lt;<a class="xref" href="Levi9.NetSel.Elements.NetSelElement.html">NetSelElement</a>&gt;</td>
+                    <td><span class="parametername">elem</span></td>
+                    <td><p>Array of NetSel elements.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">TimeSpan</span></td>
+                    <td><span class="parametername">timeoutTime</span></td>
+                    <td><p>Time interval.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Levi9.NetSel.Wait-1.html">Wait</a>&lt;<span class="xref">ICollection</span>&lt;<a class="xref" href="Levi9.NetSel.Elements.NetSelElement.html">NetSelElement</a>&gt;&gt;</td>
+                    <td><p>Instance of Wait.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <a id="Levi9_NetSel_Extensions_WaitExtensionMethods_WaitFor_" data-uid="Levi9.NetSel.Extensions.WaitExtensionMethods.WaitFor*"></a>
+              <h4 id="Levi9_NetSel_Extensions_WaitExtensionMethods_WaitFor_Levi9_NetSel_Elements_NetSelElement_TimeSpan_" data-uid="Levi9.NetSel.Extensions.WaitExtensionMethods.WaitFor(Levi9.NetSel.Elements.NetSelElement,TimeSpan)">WaitFor(NetSelElement, TimeSpan)</h4>
+              <div class="markdown level1 summary"><p>Method to create new instance of Wait.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static Wait&lt;ICollection&lt;NetSelElement&gt;&gt; WaitFor(this NetSelElement elem, TimeSpan timeoutTime)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Levi9.NetSel.Elements.NetSelElement.html">NetSelElement</a></td>
+                    <td><span class="parametername">elem</span></td>
+                    <td><p>Instance of NetSelElement.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">TimeSpan</span></td>
+                    <td><span class="parametername">timeoutTime</span></td>
+                    <td><p>Time interval.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Levi9.NetSel.Wait-1.html">Wait</a>&lt;<span class="xref">ICollection</span>&lt;<a class="xref" href="Levi9.NetSel.Elements.NetSelElement.html">NetSelElement</a>&gt;&gt;</td>
+                    <td><p>Instance of Wait.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <a id="Levi9_NetSel_Extensions_WaitExtensionMethods_WaitFor_" data-uid="Levi9.NetSel.Extensions.WaitExtensionMethods.WaitFor*"></a>
+              <h4 id="Levi9_NetSel_Extensions_WaitExtensionMethods_WaitFor__1_Levi9_NetSel_Elements_ElementCollection___0__TimeSpan_" data-uid="Levi9.NetSel.Extensions.WaitExtensionMethods.WaitFor``1(Levi9.NetSel.Elements.ElementCollection{``0},TimeSpan)">WaitFor&lt;T&gt;(ElementCollection&lt;T&gt;, TimeSpan)</h4>
+              <div class="markdown level1 summary"><p>Method to create new instance of Wait.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static Wait&lt;ElementCollection&lt;T&gt;&gt; WaitFor&lt;T&gt;(this ElementCollection&lt;T&gt; elem, TimeSpan timeoutTime)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Levi9.NetSel.Elements.ElementCollection-1.html">ElementCollection</a>&lt;T&gt;</td>
+                    <td><span class="parametername">elem</span></td>
+                    <td><p>Element collection of NetSel elements.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">TimeSpan</span></td>
+                    <td><span class="parametername">timeoutTime</span></td>
+                    <td><p>Time interval.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="Levi9.NetSel.Wait-1.html">Wait</a>&lt;<a class="xref" href="Levi9.NetSel.Elements.ElementCollection-1.html">ElementCollection</a>&lt;T&gt;&gt;</td>
+                    <td><p>Instance of Wait.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="parametername">T</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+                        </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
